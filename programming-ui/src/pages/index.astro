@@ -1,0 +1,9 @@
+---
+import Layout from "../layout/Layout.astro";
+import Assignment from "../components/Assignment.svelte";
+import PointsBanner from "../components/PointsBanner.svelte";
+---
+
+<Layout>
+    <Assignment client:only={"svelte"} />
+</Layout>
